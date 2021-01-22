@@ -1,0 +1,25 @@
+.shop-screen{
+  margin-top: 8vh;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.product-list-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 3vh;
+  background-color: grey;
+  font-size: .9rem;
+  color: white;
+  font-family: cursive;
+}
+.product-list{
+  margin-top: 3vh;
+  max-width: 80vw;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

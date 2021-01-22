@@ -1,0 +1,48 @@
+.call-to-action{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 92vh;
+  min-width: 600px;
+  margin-top: 8vh;
+  background-image: url('../../assets/img4.jpg');
+  background-size: cover;
+}
+.action-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40vw;
+  min-width: 600px;
+  height: 40vh;
+  padding: 50px;
+  box-sizing: border-box;
+  background-color: rgba(150,150,150,0.2);
+  border: 2px solid white;
+  border-radius: 3px;
+  color: white;
+  font-family: Times;
+  font-size: 3rem;
+}
+.action-box h3{
+  margin:0;
+  padding: 0;
+}
+.action-box p{
+  margin: 0;
+  padding: 0;
+}
+.action-box button{
+  width: 35%;
+  background-color: RGBA(255,255,255,0.4);
+  border: 1px solid white;
+  border-radius: 3px;
+  color: white;
+  padding: 1rem 0 1rem 0;
+  font-size: 1rem;
+  transition: .2s;
+}
+.action-box button:hover{
+  background-color: RGBA(233,132,0,0.8);
+  cursor: pointer;
+}

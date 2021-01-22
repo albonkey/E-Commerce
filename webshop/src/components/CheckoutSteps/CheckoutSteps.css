@@ -1,0 +1,18 @@
+.checkout-steps{
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  width: 25vw;
+  min-width: 500px;
+}
+.checkout-steps > div {
+  width: 20%;
+  margin: 5px;
+  padding: 5px;
+  color: RGB(200,200,200);
+  text-align: center;
+  cursor: pointer;
+}
+.checkout-steps > div.active {
+  color: orange;
+}

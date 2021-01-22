@@ -1,0 +1,23 @@
+.checkout-item-card{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: inherit;
+  padding: 10px 0;
+}
+.checkout-item-info{
+  display: flex;
+  align-items: center;
+}
+.checkout-item-info img{
+  width: 75px;
+}
+.checkout-item-info p{
+  font-size: 15px;
+  margin: 5px;
+}
+.info-title{
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}

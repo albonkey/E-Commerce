@@ -1,0 +1,21 @@
+.orders-screen{
+  margin-top: 8vh;
+  display: flex;
+  justify-content: center;
+}
+.orders-screen table{
+  display: block;
+  border-collapse: collapse;
+}
+.orders-screen table td{
+  padding: 25px 15px;
+
+}
+.orders-screen table th{
+  padding: 25px 15px;
+
+}
+.orders-screen table tr:nth-child(even){
+  background-color: RGB(244,244,244);
+
+}

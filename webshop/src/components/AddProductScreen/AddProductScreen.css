@@ -1,0 +1,133 @@
+.add-product-screen{
+  padding-top: 8vh;
+  height: 92vh;
+  background-color: RGB(242,242,242);
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.add-product-screen .product-list{
+  width: 1000px;
+  background-color: white;
+  margin: 20px;
+  padding: 50px;
+}
+.product-list li{
+  list-style: none;
+  text-align: left;
+  color: grey;
+  text-transform: capitalize;
+  margin: 5px 0;
+}
+.add-product-screen .product-list table{
+  border-collapse: collapse;
+  width: 100%;
+}
+.add-product-screen .product-list th{
+  height: 50px;
+  width: 200px;
+
+}
+.add-product-screen .product-list td{
+  height: 70px;
+  width: 200px;
+  text-align: center;
+
+}
+.add-product-screen .product-list tr{
+  border-bottom: 1px solid grey;
+}
+
+.add-product-screen .product-list button{
+  padding: 10px;
+  background-color: RGB(242,242,242);
+  border: 1px solid grey;
+  margin: 5px;
+}
+.add-product-screen .product-list button:hover{
+  background-color: orange;
+}
+.open-add-product{
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border: none;
+  margin-top: 20px;
+  transition: .2s;
+}
+.open-add-product:hover{
+  background-color: orange;
+}
+.add-product-action{
+  margin: -8vh;
+  position: fixed;
+  background-color: RGBA(18,18,18,0.5);
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.add-product-action form{
+  background-color: white;
+  padding: 50px;
+  width: 35vw;
+  min-width: 600px;
+}
+.add-product-action legend{
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  margin-top: -1rem;
+}
+.add-product-action ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+.add-product-action li{
+  margin: 1rem;
+  padding: 0;
+}
+.add-product-action label{
+  width: 500px;
+  display: inline-block;
+}
+.add-product-action input{
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.3rem 0;
+  box-sizing: border-box;
+}
+.add-product-action .size-header{
+  color: grey;
+}
+.add-product-action textarea{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+}
+.button-container{
+  display: flex;
+}
+.add-product-action button{
+  padding: 0.8rem 0.5rem;
+  background-color: RGB(242,242,242);
+  border: 1px solid grey;
+  margin: 5px;
+
+}
+.add-product-action .button-primary{
+  width: 70%;
+}
+.add-product-action .button-secondary{
+  width: 30%;
+}
+.add-product-action button:hover{
+  background-color: orange;
+}

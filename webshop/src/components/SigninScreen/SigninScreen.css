@@ -1,0 +1,63 @@
+.signin-screen{
+  width: 100vw;
+  height: 92vh;
+  margin-top: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: RGB(242,242,242);
+}
+.signin-screen form{
+  width: 25vw;
+  min-width: 400px;
+  height: 30vw;
+  min-height: 500px;
+  border: 1px solid;
+  background-color: white;
+  padding: 1rem;
+}
+.signin-screen legend{
+  margin-top: 10px;
+  font-size: 2rem;
+}
+.signin-screen ul{
+  margin:0;
+  padding:0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: inherit;
+  min-width: inherit;
+  height: inherit;
+  min-height: inherit;
+
+  list-style: none;
+}
+.signin-screen li{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width:75%;
+}
+.signin-screen input{
+  width: 100%;
+  margin:0;
+  margin-top: 10px;
+  padding:10px 0 10px 0;
+  text-align: center;
+}
+.signin-screen label{
+  margin:0;
+  padding:0;
+}
+.signin-screen button{
+  width: 100%;
+  padding: .8rem;
+  transition: .2s;
+  border: 1px solid black;
+}
+.signin-screen button:hover{
+  background-color: orange;
+}

@@ -1,0 +1,19 @@
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  text-align: center;
+}
+.footer input{
+  padding: .7rem;
+  width: 300px;
+  border: 1px solid black;
+}
+.footer button{
+  padding: .7rem;
+  margin-left: 5px;
+  background-color: transparent;
+  border: 1px solid black;
+}

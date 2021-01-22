@@ -1,0 +1,22 @@
+.product-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20vw;
+  margin: 30px;
+  min-width: 400px;
+  background-color: RGB(242,242,242);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.product-card:hover{
+  opacity: 0.7;
+}
+.product-card img{
+  width: inherit;
+  min-width: 400px;
+}
+.info{
+  text-align: center;
+  padding: 10px 0px;
+}

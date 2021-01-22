@@ -1,0 +1,17 @@
+.quantity-selector{
+  display: flex;
+  border: 1px solid grey;
+  width: 120px
+}
+.quantity-selector div{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.quantity-selector .increase, .decrease{
+  cursor: pointer;
+  color: grey;
+}

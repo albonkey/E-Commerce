@@ -1,0 +1,53 @@
+.contact{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 92vh;
+  background-image: url('../../assets/img4.jpg');
+  background-size: cover;
+
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  width: 35vw;
+  min-width: 600px;
+  height: 65vh;
+  padding: 50px;
+  box-sizing: border-box;
+  background-color: rgba(150,150,150,0.2);
+  border: 2px solid white;
+  color: white;
+  font-family: Times;
+  font-size: 2rem;
+}
+.form legend{
+  text-align: center;
+  font-size: 3rem;
+}
+.form input{
+  background-color: RGBA(255,255,255,0.3);
+  border: 1px solid white;
+  padding: .7rem;
+  margin: 1rem 0 1rem 0;
+}
+.form textarea {
+  height: 20%;
+  background-color: RGBA(255,255,255,0.3);
+  border: 1px solid white;
+  padding: .5rem;
+  margin: 1rem 0 1rem 0;
+}
+.form button{
+  background-color: RGBA(255,255,255,0.3);
+  border: 1px solid white;
+  color: white;
+  padding: 1rem;
+  font-size: 1rem;
+  transition: .3s;
+}
+.form button:hover{
+  background-color: RGBA(255,255,255,1);
+  color: black;
+
+}

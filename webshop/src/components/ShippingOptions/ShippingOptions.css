@@ -1,0 +1,39 @@
+.shipping-options{
+  width: 25vw;
+  min-width: 500px;
+}
+
+.shipping-radio-box{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid grey;
+  border-radius: 3px;
+  padding: 15px 10px;
+  margin: 30px 0px;
+}
+
+.shipping-info-box{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid grey;
+  border-radius: 3px;
+  margin: 30px 0px;
+  padding: 0px 10px;
+  min-width: 500px;
+}
+.shipping-info-contact{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10px;
+}
+.shipping-info-contact:nth-child(1){
+  border-bottom: 1px solid grey;
+}
+
+.shipping-actions{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
